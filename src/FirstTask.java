@@ -12,8 +12,8 @@ public class FirstTask {
             char[] chars = text.toCharArray();
             if (chars.length == 7) {
                 for (int j = 0; j < chars.length; j++) {
-                    int n = chars[j];
-                    if (n == 49) {
+                    int n = Integer.parseInt(""+chars[j]);
+                    if (n == 1) {
                         robotPositionV = i;
                         robotPositionG = j;
                     }
